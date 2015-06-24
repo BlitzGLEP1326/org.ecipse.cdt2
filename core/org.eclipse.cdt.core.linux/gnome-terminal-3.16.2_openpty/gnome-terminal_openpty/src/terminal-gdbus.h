@@ -24,7 +24,7 @@
 #include "terminal-screen.h"
 
 G_BEGIN_DECLS
-
+;
 #define TERMINAL_TYPE_RECEIVER_IMPL         (terminal_receiver_impl_get_type ())
 #define TERMINAL_RECEIVER_IMPL(o)           (G_TYPE_CHECK_INSTANCE_CAST ((o), TERMINAL_TYPE_RECEIVER_IMPL, TerminalReceiverImpl))
 #define TERMINAL_RECEIVER_IMPL_CLASS(k)     (G_TYPE_CHECK_CLASS_CAST((k), TERMINAL_TYPE_RECEIVER_IMPL, TerminalReceiverImplClass))

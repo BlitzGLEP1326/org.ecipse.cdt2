@@ -25,7 +25,7 @@
 #include <gdk/gdk.h>
 
 G_BEGIN_DECLS
-
+;
 #define VTE_META_MASK		GDK_META_MASK
 #define VTE_NUMLOCK_MASK	GDK_MOD2_MASK
 

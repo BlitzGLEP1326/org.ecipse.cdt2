@@ -23,7 +23,7 @@
 #include "vte.h"
 
 G_BEGIN_DECLS
-
+;
 void _vte_terminal_accessible_ref(VteTerminal *terminal);
 char* _vte_terminal_get_selection(VteTerminal *terminal);
 void _vte_terminal_get_start_selection(VteTerminal *terminal, long *x, long *y);

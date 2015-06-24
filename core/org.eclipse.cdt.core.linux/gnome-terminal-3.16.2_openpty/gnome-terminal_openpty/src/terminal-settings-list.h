@@ -23,7 +23,7 @@
 #include "terminal-enums.h"
 
 G_BEGIN_DECLS
-
+;
 #define TERMINAL_TYPE_SETTINGS_LIST            (terminal_settings_list_get_type ())
 #define TERMINAL_SETTINGS_LIST(object)         (G_TYPE_CHECK_INSTANCE_CAST ((object), TERMINAL_TYPE_SETTINGS_LIST, TerminalSettingsList))
 #define TERMINAL_SETTINGS_LIST_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), TERMINAL_TYPE_SETTINGS_LIST, TerminalSettingsListClass))

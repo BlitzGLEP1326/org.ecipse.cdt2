@@ -22,7 +22,7 @@
 #include <glib.h>
 
 G_BEGIN_DECLS
-
+;
 char *vte_get_user_shell(void);
 
 const char *vte_get_features (void);

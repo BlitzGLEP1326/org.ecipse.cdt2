@@ -22,7 +22,7 @@
 #include "terminal-screen.h"
 
 G_BEGIN_DECLS
-
+;
 #define TERMINAL_TYPE_SCREEN_CONTAINER         (terminal_screen_container_get_type ())
 #define TERMINAL_SCREEN_CONTAINER(o)           (G_TYPE_CHECK_INSTANCE_CAST ((o), TERMINAL_TYPE_SCREEN_CONTAINER, TerminalScreenContainer))
 #define TERMINAL_SCREEN_CONTAINER_CLASS(k)     (G_TYPE_CHECK_CLASS_CAST((k), TERMINAL_TYPE_SCREEN_CONTAINER, TerminalScreenContainerClass))

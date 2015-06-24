@@ -23,7 +23,7 @@
 #include <gtk/gtk.h>
 
 G_BEGIN_DECLS
-
+;
 #define TERMINAL_TYPE_CLOSE_BUTTON			(terminal_close_button_get_type ())
 #define TERMINAL_CLOSE_BUTTON(obj)			(G_TYPE_CHECK_INSTANCE_CAST ((obj), TERMINAL_TYPE_CLOSE_BUTTON, TerminalCloseButton))
 #define TERMINAL_CLOSE_BUTTON_CONST(obj)		(G_TYPE_CHECK_INSTANCE_CAST ((obj), TERMINAL_TYPE_CLOSE_BUTTON, TerminalCloseButton const))

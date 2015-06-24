@@ -26,7 +26,7 @@
 #include "vte.h"
 
 G_BEGIN_DECLS
-
+;
 #define VTE_TYPE_TERMINAL_ACCESSIBLE            (_vte_terminal_accessible_get_type ())
 #define VTE_TERMINAL_ACCESSIBLE(object)         (G_TYPE_CHECK_INSTANCE_CAST ((object), VTE_TYPE_TERMINAL_ACCESSIBLE, VteTerminalAccessible))
 #define VTE_TERMINAL_ACCESSIBLE_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), VTE_TYPE_TERMINAL_ACCESSIBLE, VteTerminalAccessibleClass))

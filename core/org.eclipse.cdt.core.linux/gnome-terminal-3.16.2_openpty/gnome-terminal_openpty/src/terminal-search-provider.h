@@ -22,7 +22,7 @@
 #include <gio/gio.h>
 
 G_BEGIN_DECLS
-
+;
 #define TERMINAL_TYPE_SEARCH_PROVIDER              (terminal_search_provider_get_type ())
 #define TERMINAL_SEARCH_PROVIDER(object)           (G_TYPE_CHECK_INSTANCE_CAST ((object), TERMINAL_TYPE_SEARCH_PROVIDER, TerminalSearchProvider))
 #define TERMINAL_SEARCH_PROVIDER_CLASS(klass)      (G_TYPE_CHECK_CLASS_CAST ((klass), TERMINAL_TYPE_SEARCH_PROVIDER, TerminalSearchProviderClass))

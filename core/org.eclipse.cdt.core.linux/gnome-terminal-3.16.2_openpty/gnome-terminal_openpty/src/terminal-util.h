@@ -25,7 +25,7 @@
 #include "terminal-screen.h"
 
 G_BEGIN_DECLS
-
+;
 void terminal_util_show_error_dialog (GtkWindow *transient_parent, 
                                       GtkWidget **weap_ptr, 
                                       GError *error,

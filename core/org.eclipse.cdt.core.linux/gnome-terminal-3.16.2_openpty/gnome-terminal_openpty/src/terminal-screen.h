@@ -25,7 +25,7 @@
 #include <vte/vte.h>
 
 G_BEGIN_DECLS
-
+;
 typedef enum {
   FLAVOR_AS_IS,
   FLAVOR_DEFAULT_TO_HTTP,

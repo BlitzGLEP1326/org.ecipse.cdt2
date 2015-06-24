@@ -23,7 +23,7 @@
 #include <gtk/gtk.h>
 
 G_BEGIN_DECLS
-
+;
 #define TERMINAL_TYPE_SEARCH_DIALOG         (terminal_search_dialog_get_type ())
 #define TERMINAL_SEARCH_DIALOG(o)           (G_TYPE_CHECK_INSTANCE_CAST ((o), TERMINAL_TYPE_SEARCH_DIALOG, TerminalSearchDialog))
 #define TERMINAL_SEARCH_DIALOG_CLASS(k)     (G_TYPE_CHECK_CLASS_CAST((k), TERMINAL_TYPE_SEARCH_DIALOG, TerminalSearchDialogClass))

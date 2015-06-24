@@ -21,7 +21,7 @@
 #include <glib.h>
 
 G_BEGIN_DECLS
-
+;
 #define TERMINAL_SCHEMA_VERSION         (3u)
 
 #define TERMINAL_KEYBINDINGS_SCHEMA     "org.gnome.Terminal.Legacy.Keybindings"

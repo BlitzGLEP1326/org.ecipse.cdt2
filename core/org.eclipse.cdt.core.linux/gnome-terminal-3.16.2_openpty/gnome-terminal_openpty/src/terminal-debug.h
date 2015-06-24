@@ -23,7 +23,7 @@
 #include <glib.h>
 
 G_BEGIN_DECLS
-
+;
 typedef enum {
   TERMINAL_DEBUG_ACCELS        = 1 << 0,
   TERMINAL_DEBUG_ENCODINGS     = 1 << 1,

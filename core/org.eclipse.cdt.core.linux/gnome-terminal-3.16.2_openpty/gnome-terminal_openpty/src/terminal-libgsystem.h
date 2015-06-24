@@ -21,7 +21,7 @@
 #include <gio/gio.h>
 
 G_BEGIN_DECLS
-
+;
 #define gs_transfer_out_value(outp, srcp) G_STMT_START {   \
   if (outp)                                                \
     {                                                      \

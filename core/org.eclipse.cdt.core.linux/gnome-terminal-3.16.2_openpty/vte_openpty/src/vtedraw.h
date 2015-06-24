@@ -29,7 +29,7 @@
 #include "vteunistr.h"
 
 G_BEGIN_DECLS
-
+;
 #define VTE_DRAW_SINGLE_WIDE_CHARACTERS	\
 					" !\"#$%&'()*+,-./" \
 					"0123456789" \

@@ -33,7 +33,7 @@
 #include "vtepty.h"
 
 G_BEGIN_DECLS
-
+;
 #define VTE_TYPE_TERMINAL            (vte_terminal_get_type())
 #define VTE_TERMINAL(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), VTE_TYPE_TERMINAL, VteTerminal))
 #define VTE_TERMINAL_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass),  VTE_TYPE_TERMINAL, VteTerminalClass))

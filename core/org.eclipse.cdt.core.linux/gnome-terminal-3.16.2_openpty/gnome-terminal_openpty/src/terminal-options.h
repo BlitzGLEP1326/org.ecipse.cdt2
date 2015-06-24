@@ -27,7 +27,7 @@
 #include "terminal-profiles-list.h"
 
 G_BEGIN_DECLS
-
+;
 #define TERMINAL_CONFIG_VERSION             (1) /* Bump this for any changes */
 #define TERMINAL_CONFIG_COMPAT_VERSION      (1) /* Bump this for incompatible changes */
 

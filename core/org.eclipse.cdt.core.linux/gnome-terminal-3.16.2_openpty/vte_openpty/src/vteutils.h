@@ -22,7 +22,7 @@
 #include <glib.h>
 
 G_BEGIN_DECLS
-
+;
 int _vte_mkstemp (void);
 
 G_END_DECLS

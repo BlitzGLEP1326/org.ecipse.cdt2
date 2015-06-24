@@ -21,7 +21,7 @@
 #include <gtk/gtk.h>
 
 G_BEGIN_DECLS
-
+;
 #define TERMINAL_TYPE_INFO_BAR         (terminal_info_bar_get_type ())
 #define TERMINAL_INFO_BAR(o)           (G_TYPE_CHECK_INSTANCE_CAST ((o), TERMINAL_TYPE_INFO_BAR, TerminalInfoBar))
 #define TERMINAL_INFO_BAR_CLASS(k)     (G_TYPE_CHECK_CLASS_CAST((k), TERMINAL_TYPE_INFO_BAR, TerminalInfoBarClass))

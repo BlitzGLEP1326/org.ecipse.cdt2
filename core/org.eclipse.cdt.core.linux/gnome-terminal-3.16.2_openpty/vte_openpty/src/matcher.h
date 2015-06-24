@@ -25,7 +25,7 @@
 #include <glib-object.h>
 
 G_BEGIN_DECLS
-
+;
 struct _vte_matcher;
 
 struct _vte_matcher_impl {

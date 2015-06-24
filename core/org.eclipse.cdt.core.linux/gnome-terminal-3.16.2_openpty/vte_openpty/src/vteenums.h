@@ -26,7 +26,7 @@
 #include <glib.h>
 
 G_BEGIN_DECLS
-
+;
 /**
  * VteCursorBlinkMode:
  * @VTE_CURSOR_BLINK_SYSTEM: Follow GTK+ settings for cursor blinking.

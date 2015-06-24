@@ -23,7 +23,7 @@
 #include "terminal-screen.h"
 
 G_BEGIN_DECLS
-
+;
 #define TERMINAL_TYPE_MDI_CONTAINER            (terminal_mdi_container_get_type ())
 #define TERMINAL_MDI_CONTAINER(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), TERMINAL_TYPE_MDI_CONTAINER, TerminalMdiContainer))
 #define TERMINAL_IS_MDI_CONTAINER(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), TERMINAL_TYPE_MDI_CONTAINER))

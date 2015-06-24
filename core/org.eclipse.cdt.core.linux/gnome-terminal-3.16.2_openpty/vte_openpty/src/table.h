@@ -25,7 +25,7 @@
 #include <glib-object.h>
 
 G_BEGIN_DECLS
-
+;
 struct _vte_table;
 
 /* Create an empty, one-level table. */

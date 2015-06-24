@@ -21,7 +21,7 @@
 #include <glib.h>
 
 G_BEGIN_DECLS
-
+;
 #define I_(string) g_intern_static_string (string)
 
 G_END_DECLS

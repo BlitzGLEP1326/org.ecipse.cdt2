@@ -21,7 +21,7 @@
 #include <gtk/gtk.h>
 
 G_BEGIN_DECLS
-
+;
 void terminal_prefs_show_preferences (GtkWindow *transient_parent,
                                       const char *page);
 

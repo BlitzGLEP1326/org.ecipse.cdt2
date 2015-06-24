@@ -17,7 +17,7 @@
  */
 
 G_BEGIN_DECLS
-
+;
 gboolean __vte_pty_spawn (VtePty *pty,
                           const char *working_directory,
                           char **argv,

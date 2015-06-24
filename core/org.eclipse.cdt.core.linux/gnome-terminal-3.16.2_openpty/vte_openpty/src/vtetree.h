@@ -25,7 +25,7 @@
 #include <glib.h>
 
 G_BEGIN_DECLS
-
+;
 /* This is an optimiziation for GTrees we use with unicode characters. Since
  * most characters are in the range [0-128], we store that range in an array
  * for faster access.

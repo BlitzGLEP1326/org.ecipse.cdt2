@@ -30,7 +30,7 @@
 #endif
 
 G_BEGIN_DECLS
-
+;
 _VTE_DEPRECATED
 void vte_terminal_match_set_cursor(VteTerminal *terminal,
                                    int tag,

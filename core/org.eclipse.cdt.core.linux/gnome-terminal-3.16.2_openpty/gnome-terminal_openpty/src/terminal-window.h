@@ -23,7 +23,7 @@
 #include "terminal-screen.h"
 
 G_BEGIN_DECLS
-
+;
 #define TERMINAL_TYPE_WINDOW              (terminal_window_get_type ())
 #define TERMINAL_WINDOW(object)           (G_TYPE_CHECK_INSTANCE_CAST ((object), TERMINAL_TYPE_WINDOW, TerminalWindow))
 #define TERMINAL_WINDOW_CLASS(klass)      (G_TYPE_CHECK_CLASS_CAST ((klass), TERMINAL_TYPE_WINDOW, TerminalWindowClass))

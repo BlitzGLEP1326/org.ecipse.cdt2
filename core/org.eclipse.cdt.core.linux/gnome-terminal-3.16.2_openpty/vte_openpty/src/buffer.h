@@ -25,7 +25,7 @@
 #include <glib.h>
 
 G_BEGIN_DECLS
-
+;
 typedef GByteArray VteByteArray;
 
 #define _vte_byte_array_new				g_byte_array_new

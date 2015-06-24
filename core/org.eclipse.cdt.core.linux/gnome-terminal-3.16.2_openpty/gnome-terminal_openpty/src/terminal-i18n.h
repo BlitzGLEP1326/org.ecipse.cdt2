@@ -21,7 +21,7 @@
 #include <glib.h>
 
 G_BEGIN_DECLS
-
+;
 void terminal_i18n_init (gboolean set_default);
 
 G_END_DECLS

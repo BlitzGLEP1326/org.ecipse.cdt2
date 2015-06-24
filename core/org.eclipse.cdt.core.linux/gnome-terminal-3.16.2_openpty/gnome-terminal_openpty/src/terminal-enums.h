@@ -23,7 +23,7 @@
 #include <glib.h>
 
 G_BEGIN_DECLS
-
+;
 typedef enum {
   TERMINAL_NEW_TERMINAL_MODE_WINDOW,
   TERMINAL_NEW_TERMINAL_MODE_TAB

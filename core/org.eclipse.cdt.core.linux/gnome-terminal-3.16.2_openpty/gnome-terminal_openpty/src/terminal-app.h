@@ -26,7 +26,7 @@
 #include "terminal-profiles-list.h"
 
 G_BEGIN_DECLS
-
+;
 #define GNOME_TERMINAL_ICON_NAME "utilities-terminal"
 
 #define TERMINAL_RESOURCES_PATH_PREFIX "/org/gnome/terminal/"

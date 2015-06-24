@@ -22,7 +22,7 @@
 #include <gtk/gtk.h>
 
 G_BEGIN_DECLS
-
+;
 void terminal_profile_edit (GSettings  *profile,
                             GtkWindow  *transient_parent,
                             const char *widget_name);

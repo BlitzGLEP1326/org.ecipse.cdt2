@@ -25,7 +25,7 @@
 #include <gio/gio.h>
 
 G_BEGIN_DECLS
-
+;
 typedef struct _VteStream VteStream;
 
 void _vte_stream_reset (VteStream *stream, gsize offset);

@@ -35,7 +35,7 @@
 #endif
 
 G_BEGIN_DECLS
-
+;
 typedef enum {
 	VTE_DEBUG_MISC		= 1 << 0,
 	VTE_DEBUG_PARSE		= 1 << 1,

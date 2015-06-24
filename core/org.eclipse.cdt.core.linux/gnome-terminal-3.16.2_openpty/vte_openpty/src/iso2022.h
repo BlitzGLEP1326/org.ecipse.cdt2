@@ -28,7 +28,7 @@
 #include "matcher.h"
 
 G_BEGIN_DECLS
-
+;
 struct _vte_iso2022_state;
 struct _vte_iso2022_state *_vte_iso2022_state_new(const char *native_codeset);
 void _vte_iso2022_state_set_codeset(struct _vte_iso2022_state *state,

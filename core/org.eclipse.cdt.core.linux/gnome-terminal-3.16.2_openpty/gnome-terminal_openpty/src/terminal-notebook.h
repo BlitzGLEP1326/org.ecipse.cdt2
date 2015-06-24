@@ -21,7 +21,7 @@
 #include <gtk/gtk.h>
 
 G_BEGIN_DECLS
-
+;
 #define TERMINAL_TYPE_NOTEBOOK         (terminal_notebook_get_type ())
 #define TERMINAL_NOTEBOOK(o)           (G_TYPE_CHECK_INSTANCE_CAST ((o), TERMINAL_TYPE_NOTEBOOK, TerminalNotebook))
 #define TERMINAL_NOTEBOOK_CLASS(k)     (G_TYPE_CHECK_CLASS_CAST((k), TERMINAL_TYPE_NOTEBOOK, TerminalNotebookClass))

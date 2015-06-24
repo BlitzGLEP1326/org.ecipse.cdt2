@@ -21,7 +21,7 @@
 #include "terminal-window.h"
 
 G_BEGIN_DECLS
-
+;
 #define TERMINAL_TYPE_TABS_MENU		(terminal_tabs_menu_get_type ())
 #define TERMINAL_TABS_MENU(o)		(G_TYPE_CHECK_INSTANCE_CAST ((o), TERMINAL_TYPE_TABS_MENU, TerminalTabsMenu))
 #define TERMINAL_TABS_MENU_CLASS(k)	(G_TYPE_CHECK_CLASS_CAST((k), TERMINAL_TYPE_TABS_MENU, TerminalTabsMenuClass))

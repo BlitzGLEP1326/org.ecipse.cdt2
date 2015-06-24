@@ -24,7 +24,7 @@
 #include "terminal-screen.h"
 
 G_BEGIN_DECLS
-
+;
 #define TERMINAL_TYPE_TAB_LABEL         (terminal_tab_label_get_type ())
 #define TERMINAL_TAB_LABEL(o)           (G_TYPE_CHECK_INSTANCE_CAST ((o), TERMINAL_TYPE_TAB_LABEL, TerminalTabLabel))
 #define TERMINAL_TAB_LABEL_CLASS(k)     (G_TYPE_CHECK_CLASS_CAST((k), TERMINAL_TYPE_TAB_LABEL, TerminalTabLabelClass))

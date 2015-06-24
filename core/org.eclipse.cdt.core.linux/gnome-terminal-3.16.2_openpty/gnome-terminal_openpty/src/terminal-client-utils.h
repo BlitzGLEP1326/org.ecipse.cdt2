@@ -22,7 +22,7 @@
 #include <gio/gunixfdlist.h>
 
 G_BEGIN_DECLS
-
+;
 void terminal_client_append_create_instance_options (GVariantBuilder *builder,
                                                      const char      *display_name,
                                                      const char      *startup_id,

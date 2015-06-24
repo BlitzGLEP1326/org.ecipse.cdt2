@@ -24,7 +24,7 @@
 #include "terminal-settings-list.h"
 
 G_BEGIN_DECLS
-
+;
 TerminalSettingsList *terminal_profiles_list_new (void);
 
 GList *terminal_profiles_list_ref_children_sorted (TerminalSettingsList *list);

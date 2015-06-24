@@ -25,7 +25,7 @@
 #include <glib.h>
 
 G_BEGIN_DECLS
-
+;
 #define _VTE_CAP_ESC "\033"		/* Escape */
 #define _VTE_CAP_CSI _VTE_CAP_ESC "["	/* Control Sequence Introducer */
 #define _VTE_CAP_ST  _VTE_CAP_ESC "\\"	/* String Terminator */
