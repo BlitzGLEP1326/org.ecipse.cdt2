@@ -31,7 +31,7 @@
 
 G_BEGIN_DECLS
 
-
+;
 typedef struct _VteVisualPosition {
 	long row, col;
 } VteVisualPosition;
