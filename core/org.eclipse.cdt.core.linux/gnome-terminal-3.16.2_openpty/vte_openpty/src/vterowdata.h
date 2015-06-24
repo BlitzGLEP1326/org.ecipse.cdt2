@@ -25,7 +25,7 @@
 #include "vtemacros.h"
 
 G_BEGIN_DECLS
-
+;
 #define VTE_TAB_WIDTH_BITS		4  /* Has to be able to store the value of 8. */
 #define VTE_TAB_WIDTH_MAX		((1 << VTE_TAB_WIDTH_BITS) - 1)
 
