@@ -40,7 +40,7 @@ G_BEGIN_DECLS
 #define VTE_IS_TERMINAL(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), VTE_TYPE_TERMINAL))
 #define VTE_IS_TERMINAL_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass),  VTE_TYPE_TERMINAL))
 #define VTE_TERMINAL_GET_CLASS(obj)  (G_TYPE_INSTANCE_GET_CLASS ((obj),  VTE_TYPE_TERMINAL, VteTerminalClass))
-;
+
 typedef struct _VteTerminal             VteTerminal;
 typedef struct _VteTerminalPrivate      VteTerminalPrivate;
 typedef struct _VteTerminalClass        VteTerminalClass;
